@@ -7,7 +7,7 @@ A Babel preset, Collection of common plugins.
     <a href="https://www.npmjs.com/package/babel-preset-collection"><img src="https://img.shields.io/npm/dm/babel-preset-collection.svg?style=flat"></a>
 </p>
 
-## Installation
+## Usage
 
 ```javascript
 npm install babel-preset-collection  --save-dev
@@ -24,3 +24,22 @@ module.exports = {
         ...
     ]
 };
+```
+
+## Options
+
+### commonjs
+
+`true` | `false`, defaults to `false`.
+
+Using `transform-modules-commonjs` plugin. 
+
+### runtime
+
+`true` | `false`, defaults to `false`.
+
+Using `plugin-transform-runtime` plugin.
+
+### transformRuntimeOption
+
+`plugin-transform-runtime` plugin's Options, defaults to `{ version: 3, proposals: true }`
