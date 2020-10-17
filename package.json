@@ -1,0 +1,65 @@
+{
+  "name": "babel-preset-collection",
+  "version": "0.1.0",
+  "description": "Collection of common plugins",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "babel",
+    "preset",
+    "plugin"
+  ],
+  "author": "caoren",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/caoren/babel-preset-collection/issues"
+  },
+  "homepage": "https://github.com/caoren/babel-preset-collection",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/caoren/babel-preset-collection.git"
+  },
+  "dependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.0.0",
+    "@babel/plugin-proposal-decorators": "^7.0.0",
+    "@babel/plugin-proposal-do-expressions": "^7.0.0",
+    "@babel/plugin-proposal-export-default-from": "^7.0.0",
+    "@babel/plugin-proposal-export-namespace-from": "^7.0.0",
+    "@babel/plugin-proposal-function-bind": "^7.0.0",
+    "@babel/plugin-proposal-function-sent": "^7.0.0",
+    "@babel/plugin-proposal-json-strings": "^7.0.0",
+    "@babel/plugin-proposal-logical-assignment-operators": "^7.0.0",
+    "@babel/plugin-proposal-nullish-coalescing-operator": "^7.0.0",
+    "@babel/plugin-proposal-numeric-separator": "^7.0.0",
+    "@babel/plugin-proposal-object-rest-spread": "^7.9.0",
+    "@babel/plugin-proposal-optional-chaining": "^7.0.0",
+    "@babel/plugin-proposal-pipeline-operator": "^7.0.0",
+    "@babel/plugin-proposal-throw-expressions": "^7.0.0",
+    "@babel/plugin-syntax-dynamic-import": "^7.0.0",
+    "@babel/plugin-syntax-import-meta": "^7.0.0",
+    "@babel/plugin-transform-modules-commonjs": "^7.9.0",
+    "@babel/plugin-transform-runtime": "^7.8.3",
+    "@babel/runtime": "^7.0.0",
+    "@babel/runtime-corejs2": "^7.0.0",
+    "@babel/runtime-corejs3": "^7.4.0"
+  },
+  "devDependencies": {
+    "coveralls": "^3.0.6",
+    "jest": "^24.9.0"
+  },
+  "jest": {
+    "collectCoverage": true,
+    "collectCoverageFrom": [
+      "index.js"
+    ],
+    "moduleFileExtensions": [
+      "js"
+    ],
+    "testEnvironment": "node",
+    "testMatch": [
+      "<rootDir>/*.test.js"
+    ]
+  }
+}
